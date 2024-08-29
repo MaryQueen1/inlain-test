@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Томаты на ветке красные</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="pages">
+        <a href="./index.html" class="pages__active pages__title">Описание</a>
+        <a href="./feedbacks.html" class="pages__title">Отзывы</a>
+        <a href="./purveyor.html" class="pages__title">Откуда?</a>
+      </div>
+      <hr style="border: 0.50px solid #B2B2B2" />
+      <div class="description">
+        <p class="description__text">
+          Томаты на ветке красные (помидоры) - более плотные, яркие и ароматные
+          по сравнению с обычными. Они славятся низкой калорийностью и высоким
+          содержанием витаминов, клетчатки, пектина и минеральных веществ. В них
+          содержатся также каротиноиды, кислоты и мощный антиоксидант ликопин.
+        </p>
+        <p class="description__text">
+          Помидор - незаменимый продукт в мировой кулинарии. Он - основа
+          многочисленных соусов, маринадов, кетчупа, испанского холодного супа
+          Гаспачо или итальянской закуски Капрезе. С ним делают салаты, его
+          тушат, солят и консервируют. Помидоры на веточке особенно красиво
+          смотрятся в запеченном виде.
+        </p>
+      </div>
+      <section class="product">
+        <div class="product__left">
+          <div class="product__characteristics">
+            <h2 class="product__title">Характеристики</h2>
+            <div class="product__grid">
+              <div class="product__item">
+                <span class="product__label">Страна</span>
+                <span class="product__value">Россия</span>
+              </div>
+              <div class="product__item">
+                <span class="product__label">Поставщик</span>
+                <span class="product__value"
+                  >Наталья и Юрий</span
+                >
+              </div>
+              <div class="product__item">
+                <span class="product__label">Тип упаковки</span>
+                <span class="product__value">Крафтовый пакет</span>
+              </div>
+              <div class="product__item">
+                <span class="product__label">Сертификаты качества</span>
+                <span class="product__value">В наличии</span>
+              </div>
+            </div>
+          </div>
+          <div class="product__storage-conditions">
+            <h2 class="product__title">Условия хранения</h2>
+            <div class="product__grid">
+              <div class="product__item">
+                <span class="product__label">Срок хранения</span>
+                <span class="product__value">7 дней</span>
+              </div>
+              <div class="product__item">
+                <span class="product__label">Температура хранения</span>
+                <span class="product__value">от 3 ° до 7 °</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__right">
+          <h2 class="product__title">ПИЩЕВАЯ ЦЕННОСТЬ НА 100Г</h2>
+          <div class="product__grid">
+            <div class="product__item">
+              <span class="product__label">Энергетическая ценность</span>
+              <span class="product__value">18 кКал</span>
+            </div>
+            <div class="product__item">
+              <span class="product__label">Белки</span>
+              <span class="product__value">0.9 г</span>
+            </div>
+            <div class="product__item">
+              <span class="product__label">Жиры</span>
+              <span class="product__value">0.2 г</span>
+            </div>
+            <div class="product__item">
+              <span class="product__label">Углеводы</span>
+              <span class="product__value">3.9 г</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="gallary">
+        <div class="swiper-wrapper">
+          <div class="card swiper-slide">
+            <div class="foto-slide">
+              <img class="img" src="./img/milk.jpg" />
+            </div>
+            <div class="card__wish">
+              <img
+                src="./img/heart.png"
+                alt="heart non active"
+                class="card__heart"
+              />
+            </div>
+            <div class="card__text">
+              <h1 class="card__title">Молоко 3,2 %</h1>
+              <p class="card__from">от Вадима Рошки</p>
+              <p class="card__price">
+                95 ₽ <span class="card__how-many">/ 0,93 л</span>
+              </p>
+              <img src="./img/rating.png" alt="stars" class="card__rating" />
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="foto-slide">
+              <img class="img" src="./img/bread.jpg" />
+            </div>
+            <div class="card__wish">
+              <img
+                src="./img/heart.png"
+                alt="heart non active"
+                class="card__heart"
+              />
+            </div>
+            <div class="card__text">
+              <h1 class="card__title">Хлеб пшеничный</h1>
+              <p class="card__from">от Дарьи и Марии</p>
+              <p class="card__price">
+                95 ₽ <span class="card__how-many">/ 930 г </span>
+              </p>
+              <img src="./img/rating.png" alt="stars" class="card__rating" />
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="foto-slide">
+              <img class="img" src="./img/eggs.jpg" />
+            </div>
+            <div class="card__wish">
+              <img
+                src="./img/heart.png"
+                alt="heart non active"
+                class="card__heart"
+              />
+            </div>
+
+            <div class="card__text">
+              <h1 class="card__title">Яйца куриные</h1>
+              <p class="card__from">от Евгения Рошаль</p>
+              <p class="card__price">120 ₽
+                <span class="card__how-many">/ 10 шт</span>
+              </p>
+              <img src="./img/rating.png" alt="stars" class="card__rating" />
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="foto-slide">
+              <img class="img" src="./img/butter.jpg" />
+            </div>
+            <div class="card__wish">
+              <img
+                src="./img/heart.png"
+                alt="heart non active"
+                class="card__heart"
+              />
+            </div>
+            <div class="card__text">
+              <h1 class="card__title">Масло сливочное 82 %</h1>
+              <p class="card__from">от Вадима Рошки</p>
+              <p class="card__price">
+                290 ₽ <span class="card__how-many">250 г</span>
+              </p>
+              <img src="./img/rating.png" alt="stars" class="card__rating" />
+            </div>
+          </div>
+          <div class="card swiper-slide">
+            <div class="foto-slide">
+              <img class="img" src="./img/butter.jpg" />
+            </div>
+            <div class="card__wish">
+              <img
+                src="./img/heart.png"
+                alt="heart non active"
+                class="card__heart"
+              />
+            </div>
+            <div class="card__text">
+              <h1 class="card__title">Молоко 3,2 %</h1>
+              <p class="card__from">от Вадима Рошки</p>
+              <p class="card__price">
+                95 ₽ <span class="card__how-many">/ 0,93 л</span>
+              </p>
+              <img src="./img/rating.png" alt="stars" class="card__rating" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
